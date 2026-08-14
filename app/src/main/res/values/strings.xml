@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="accessibility_service_description">Allows Auto Clicker to tap two on-screen points automatically when you press Green or Red.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto Clicker Setup"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Turn on the Accessibility Service below. This lets the app tap the screen for you.\n\nStep 2: Go back to whatever app you want to use, and a small floating control will appear.\n\nStep 3: Drag the two dots (Point A and Point B) to the exact spots you want tapped. Point A is roughly the middle-left of the screen, Point B is roughly the top-left — drag them to line up exactly.\n\nStep 4: Tap GREEN to run the tap sequence 170 times, or RED to run it 230 times. Tap STOP any time to cancel early."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnOpenAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Accessibility Settings"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="In the list that opens, find 'Auto Clicker' and turn it on."
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+</ScrollView>
